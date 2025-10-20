@@ -1,4 +1,4 @@
-def find_min(nums):
+def Solve(nums):
     left, right = 0, len(nums) - 1
     min_idx = left
     while left <= right:
@@ -12,7 +12,3 @@ def find_min(nums):
             if nums[left] <= nums[right]:
                 min_idx = left
     return nums[min_idx]
-
-# Example usage
-arr = [2, 2, 2, 0, 1]
-print(find_min(arr))  # Output: 0

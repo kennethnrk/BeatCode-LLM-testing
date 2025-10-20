@@ -1,4 +1,4 @@
-def solve(prices):
+def Solve(prices):
     max_profit = 0
     profit1 = 0
     profit2 = 0

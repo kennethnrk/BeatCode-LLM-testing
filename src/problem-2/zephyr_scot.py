@@ -1,4 +1,4 @@
-def solve(envelopes):
+def Solve(envelopes):
     maxEnvelopes = 1
     for I in range(1, len(envelopes)):
         for j in range(i):

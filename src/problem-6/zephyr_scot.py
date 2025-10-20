@@ -1,4 +1,4 @@
-def solve(k: int, w: int, profits: list[int], capital: list[int]) -> int:
+def Solve(k: int, w: int, profits: list[int], capital: list[int]) -> int:
     # Sort projects based on profit-to-capital ratio
     projects = list(zip(profits, capital))
     projects.sort(key=lambda x: x[1] / x[0])

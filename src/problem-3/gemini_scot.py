@@ -1,4 +1,4 @@
-def Solve(self, nums: list[int], target: int) -> int:
+def Solve(nums: list[int], target: int) -> int:
     # Initialize two pointers for the binary search.
     # 'low' represents the start of the current search space (inclusive).
     # 'high' represents the end of the current search space (inclusive).

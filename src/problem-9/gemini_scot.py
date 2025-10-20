@@ -26,7 +26,7 @@ def calculate_sum_of_powers(k: int, m: int, N_val: int) -> int:
     
     return current_sum
 
-def solve(N_val: int) -> int:
+def Solve(N_val: int) -> int:
     """
     Finds the smallest good base k for a given integer N (from n_str).
     A good base k means N's representation in base k is all ones.

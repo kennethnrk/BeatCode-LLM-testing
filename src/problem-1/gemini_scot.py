@@ -1,4 +1,4 @@
-def Solve(self, n: int) -> int:
+def Solve(n: int) -> int:
     """
     Finds the nth ugly number.
 

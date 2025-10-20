@@ -1,4 +1,4 @@
-def solve(i):
+def Solve(i):
     if i == 0:
         return satisfaction[i] * time[i]
 

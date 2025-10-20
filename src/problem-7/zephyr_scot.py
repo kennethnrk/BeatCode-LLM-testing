@@ -1,4 +1,4 @@
-def create_maximum_number(nums1, nums2, k):
+def Solve(nums1, nums2, k):
     I = len(nums1) - 1
     j = len(nums2) - 1
     result = [0] * k

@@ -1,4 +1,4 @@
-def searchInsert(nums: List[int], target: int) -> int:
+def Solve(nums: list[int], target: int) -> int:
     left, right = 0, len(nums) - 1
     
     while left <= right:
