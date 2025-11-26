@@ -1,4 +1,4 @@
-def Solve(satisfaction):
+def Solve(satisfaction: list[int]) -> int:
     satisfaction.sort()
     
     n = len(satisfaction)

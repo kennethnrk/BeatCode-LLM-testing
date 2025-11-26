@@ -1,4 +1,4 @@
-def Solve(nums1, nums2, k):
+def Solve(nums1: list[int], nums2: list[int], k: int) -> list[int]:
     I = len(nums1) - 1
     j = len(nums2) - 1
     result = [0] * k
